@@ -1,0 +1,34 @@
+<!doctype html>
+<head>
+    <title>Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:350" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="centered">
+            Введите пример отзыва на смартфон на русском языке:
+        </div>
+        <form action="{{ url_for('index_page') }}" method=post>
+            <div class="centered">
+                <textarea placeholder="Text..." name=text rows=5 cols=40>{{ text }}</textarea>
+            </div>
+            <div class="centered">
+                <input type=submit value="Оценить">
+            </div>
+        </form>
+    </div>
+    <div>
+        <div class="centered">Предсказание класса отзыва:</div>
+            {% if prediction_message == 'Позитивный отзыв' %}
+                <div class="centered positive">
+                    {{ prediction_message }}
+                </div>
+            {% else %}
+                <div class="centered negative">
+                    {{ prediction_message }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
