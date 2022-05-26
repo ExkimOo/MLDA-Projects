@@ -4,3 +4,9 @@
 /product--smartfon-samsung-galaxy-a52/865640004/
 /product--smartfon-xiaomi-redmi-note-10-pro/861652002/
 /product--smartfon-xiaomi-11-lite-5g-ne/1449166270/
+/product--smartfon-xiaomi-redmi-note-10-pro/861652002/
+/product--smartfon-xiaomi-redmi-9a/670614000/
+/product--smartfon-realme-8/875544009/
+/product--smartfon-honor-x8/1740363991/
+/product--smartfon-xiaomi-11-lite-5g-ne/1449166270/
+/product--smartfon-samsung-galaxy-a52/865640004/
